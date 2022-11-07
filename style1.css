@@ -1,0 +1,303 @@
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #a7146a;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 0px;
+  z-index: 1;
+}
+.dropdown-content ul{
+  display: block;
+  margin: 0px;
+}
+.dropdown-content ul li{
+  width:300px;
+  padding: 0px 0px 15px 0px;
+  height: auto;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropright{
+  position: relative;
+  display: inline-block;
+}
+.dropright-content{
+  display: none;
+  position: absolute;
+  top:20px;
+  left:120px;
+
+  background-color: #a7146a;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 0px;
+  z-index: 1;
+}
+.dropright-content ul{
+  display: block;
+  margin: 0px;
+}
+.dropright-content ul li{
+  width:300px;
+  padding: 0px 0px 15px 0px;
+  height: auto;
+}
+.dropright:hover .dropright-content{
+  display: block;
+}
+
+.footer{
+    height: 40px;
+    width: 100%;
+    background-color:rgb(216, 19, 85);
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .registration{
+    position: absolute;
+    top:130px;
+    left:130px;
+    padding-bottom: 20px;
+    color:#51a5f3;
+    font-size: 1.2em;
+    border: 5px solid red;
+    width: 80em;
+    height:110em;
+    padding-left: 200px;
+    background-color: beige;
+  }
+  .form{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    position: absolute;
+    left:200px;
+    padding-left: 150px;
+  }
+  .form input{
+    display: block;
+    position: relative;
+    left:300px;
+    top:-25px;
+    width:400px;
+    height: 40px;
+    font-size: 1.2em;
+    padding: 10px;
+    color: rgb(38, 112, 4);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .gender{
+    position: relative;
+  }
+  
+  .gender li{
+    position: relative;
+    right:-310px;
+    top:-32.5px;
+    size:10px;
+    size:2px;
+    list-style: none;
+    padding: 8px;
+    
+  }
+  .gender li input{
+    position: absolute;
+    top:-3px;
+    left:-65px;
+    text-decoration: none;
+    list-style: none;
+    size:0px;
+  }
+  .educational{
+    border: 2px solid black;
+    width: 40em;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  hr{
+    border: solid 1px green;
+  }
+  .stream li{
+    position: relative;
+    right:-310px;
+    top:-32.5px;
+    size:10px;
+    size:2px;
+    list-style: none;
+    padding: 8px;
+    
+  }
+  .stream li input{
+    position: absolute;
+    top:-3px;
+    left:300px;
+    text-decoration: none;
+    list-style: none;
+    size:0px;
+  }
+  .gen{
+    border:1px solid black;
+    width:40em;
+    padding: 10px;
+
+  }
+  button{
+    position: absolute;
+    left:400px;
+    font-size: 1.5em;
+    color: aqua;
+    background-color: black;
+    size:200px;
+  }
+.reset{
+    position: absolute;
+    left:650px;
+    font-size: 1.5em;
+    color: aqua;
+    background-color: black;
+    size:200px;
+  }
+  button:hover{
+    background-color: aqua;
+    color:black;
+  }
+  body{
+    background-color: #f3e1f0;
+  }
+  textarea{
+    width:400px;
+    position: absolute;
+    left:450px;
+    height: 50px;
+  }
+  .message1{
+    left:400px;
+    text-align: center;
+  }
+  .gallery{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top:120px;
+    left:800px;
+    margin: 10px ;
+    border: 0px solid greenyellow;
+    background-color: yellowgreen;
+    padding: 20px 50px 20px 50px;
+  }
+  .images{
+    position: absolute;
+    top:300px;
+    text-align: center;
+    left:500px;
+  }
+  .images h3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    color: #3d0225;
+  }
+  .back{
+    background-color: rgb(245, 227, 199);
+  }
+  .gallery:hover{
+    background-color: aquamarine;
+    color: #a7146a;
+  }
+  .message{
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+    left:50px;
+    top:200px;
+    display: block;
+    width:600px;
+    height: 800px;
+    background-color: #a7146a;
+    color: #72ad6a; 
+    padding: 20px;
+    font-size: 1.2em;
+  }
+  .message h3{
+    padding: 20px;
+    font-size: 2em;
+    color: #e7c70d;
+  }
+  .pmessage{
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+    left:800px;
+    top:-600px;
+    display: block;
+    width:950px;
+    height: 800px;
+    background-color: #a7146a;
+    color: #72ad6a; 
+    padding: 20px;
+    font-size: 1.2em;
+  }
+  .pmessage h3{
+    padding: 20px;
+    font-size: 2em;
+    color: #e7c70d;
+    text-align: center;
+  }
+  .contact{
+    width:1800px;
+    height:200px;
+    background-color: rgb(245, 223, 223);
+    position: absolute;
+    top:1400px;
+    text-align: center;
+    padding: 30px;
+  }
+  .bg{
+    background: url(/images/college\ image.jpg);
+    
+  }
+  .academics{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top:150px;
+    padding: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+  }
+  .academics h1{
+    text-align: center;
+    font-size: 3em;
+  }
+  .academics h2{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 2em;
+  }
+  .academics ul{
+    padding: 100px;
+
+  }
+  .academics ul li{
+    padding: 20px;
+  }
+table{
+    position: absolute;
+    top:200px;
+    left: 20px;
+    padding: 20px;
+    font-size: 2em;
+  }
+  table td{
+    padding: 10px;
+    width:200px;
+    color: rgb(247, 17, 132);
+  }
+  .faculty{
+    position: absolute;
+    top:250px;
+    
+  }
